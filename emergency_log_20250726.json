@@ -1,0 +1,8 @@
+[
+  {
+    "timestamp": "2025-07-26T02:56:26.919430",
+    "emergency_type": "fire_alarm",
+    "source": "fire_alarm_system",
+    "protocol": {
+      "action": "immediate_unlock",
+      "failsafe_mode": 

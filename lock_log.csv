@@ -1,4 +1,33 @@
-2025-07-25T22:53:34.564940,UNLOCKED → LOCKED,Car shifted to Drive
-2025-07-25T22:53:35.568818,LOCKED → UNLOCKED,Car shifted to Park
-2025-07-25T23:01:49.211776,UNLOCKED → LOCKED,Car shifted to Drive
-2025-07-25T23:01:50.212863,LOCKED → UNLOCKED,Car shifted to Park
+timestamp,action,reason,trigger_type,user_id,success,battery_level,temperature,connectivity,failed_attempts,state_before,state_after
+2025-07-26T03:03:06.787130,UNKNOWN → DISARMED,early_morning disarm by user1,mobile_app,user1,False,85.0,22.3,True,0,,DISARMED
+2025-07-26T03:03:07.773103,DISARMED → UNLOCKED,early_morning lock by user1,mobile_app,user1,True,85.0,22.7,True,0,DISARMED,UNLOCKED
+2025-07-26T03:03:08.895511,UNLOCKED → LOCKED,early_morning lock by user1,mobile_app,user1,True,84.9,22.7,True,0,UNLOCKED,LOCKED
+2025-07-26T03:03:10.390778,LOCKED → UNLOCKED,early_morning unlock by user1,keypad,user1,True,84.9,22.6,False,0,LOCKED,UNLOCKED
+2025-07-26T03:03:14.449102,UNLOCKED → LOCKED,morning lock by admin,mobile_app,admin,True,84.9,22.8,True,0,UNLOCKED,LOCKED
+2025-07-26T03:03:17.109858,LOCKED → UNLOCKED,morning lock by admin,mobile_app,admin,True,84.8,22.4,True,0,LOCKED,UNLOCKED
+2025-07-26T03:03:25.762617,UNLOCKED → LOCKED,afternoon lock by guest,mobile_app,guest,True,84.8,22.4,True,0,UNLOCKED,LOCKED
+2025-07-26T03:03:30.530888,LOCKED → UNLOCKED,evening unlock by user1,keypad,user1,True,84.8,22.4,True,0,LOCKED,UNLOCKED
+2025-07-26T03:03:31.692300,UNLOCKED → LOCKED,evening unlock by admin,keypad,admin,True,84.8,22.5,True,0,UNLOCKED,LOCKED
+2025-07-26T03:03:33.538813,LOCKED → UNLOCKED,evening lock by user1,mobile_app,user1,True,84.7,22.7,True,0,LOCKED,UNLOCKED
+2025-07-26T03:03:34.307909,LOCKED → UNLOCKED,evening unlock by user1,keypad,user1,False,84.7,22.5,True,0,LOCKED,UNLOCKED
+2025-07-26T03:03:37.481047,UNLOCKED → LOCKED,night lock by admin,mobile_app,admin,True,84.7,22.9,True,0,UNLOCKED,LOCKED
+2025-07-26T03:03:45.875280,UNLOCKED → LOCKED,morning lock by admin,mobile_app,admin,False,84.6,22.6,True,0,UNLOCKED,LOCKED
+2025-07-26T03:03:49.857176,LOCKED → UNLOCKED,afternoon guest_access by user1,keypad,user1,True,84.6,22.9,True,0,LOCKED,UNLOCKED
+2025-07-26T03:03:50.794854,UNLOCKED → LOCKED,afternoon lock by admin,mobile_app,admin,True,84.6,23.0,True,0,UNLOCKED,LOCKED
+2025-07-26T03:03:51.435566,LOCKED → UNLOCKED,afternoon unlock by guest,keypad,guest,True,84.5,23.4,True,0,LOCKED,UNLOCKED
+2025-07-26T03:03:52.984224,UNLOCKED → LOCKED,afternoon unlock by guest,keypad,guest,True,84.5,22.9,True,0,UNLOCKED,LOCKED
+2025-07-26T03:03:54.408972,LOCKED → UNLOCKED,afternoon guest_access by admin,keypad,admin,True,84.5,22.7,True,0,LOCKED,UNLOCKED
+2025-07-26T03:03:55.177712,UNLOCKED → LOCKED,afternoon lock by admin,mobile_app,admin,True,84.4,22.7,True,0,UNLOCKED,LOCKED
+2025-07-26T03:03:57.277078,UNLOCKED → LOCKED,evening disarm by user1,mobile_app,user1,False,84.4,22.8,True,0,UNLOCKED,LOCKED
+2025-07-26T03:04:01.159250,LOCKED → UNLOCKED,evening unlock by admin,keypad,admin,True,84.4,22.3,True,0,LOCKED,UNLOCKED
+2025-07-26T03:04:09.621434,LOCKED → UNLOCKED,Security incident: failed_attempts,keypad,unknown,False,84.3,22.8,True,1,LOCKED,UNLOCKED
+2025-07-26T03:04:10.583680,LOCKED → UNLOCKED,Security incident: failed_attempts,keypad,unknown,False,84.3,22.9,True,2,LOCKED,UNLOCKED
+2025-07-26T03:04:11.969961,LOCKED → UNLOCKED,Security incident: failed_attempts,keypad,unknown,False,84.3,23.1,True,3,LOCKED,UNLOCKED
+2025-07-26T03:04:13.023273,UNLOCKED → TAMPERED,Security incident: tampering,sensor,unknown,True,84.3,23.1,True,3,UNLOCKED,TAMPERED
+2025-07-26T03:04:14.529225,UNLOCKED → TAMPERED,Security incident: intrusion_while_armed,mobile_app,admin,False,84.2,22.7,True,3,UNLOCKED,TAMPERED
+2025-07-26T03:04:15.890241,UNLOCKED → TAMPERED,Security incident: intrusion_while_armed,sensor,unknown,False,84.2,22.8,True,3,UNLOCKED,TAMPERED
+2025-07-26T03:04:19.088861,UNLOCKED → TAMPERED,Battery level critically low,system,,False,84.2,22.8,True,3,UNLOCKED,TAMPERED
+2025-07-26T03:04:20.232044,UNLOCKED → TAMPERED,Scheduled maintenance mode,system,,False,84.2,23.0,True,3,UNLOCKED,TAMPERED
+2025-07-26T03:04:21.978335,UNLOCKED → TAMPERED,Network connection issues,system,,False,84.1,22.9,True,3,UNLOCKED,TAMPERED
+2025-07-26T03:04:24.839170,UNLOCKED → TAMPERED,Battery replacement completed,system,,False,84.1,23.2,True,3,UNLOCKED,TAMPERED
+2025-07-26T03:04:26.480731,UNLOCKED → TAMPERED,Maintenance completed,system,,False,84.1,23.2,True,3,UNLOCKED,TAMPERED
